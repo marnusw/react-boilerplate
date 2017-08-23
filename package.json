@@ -50,6 +50,7 @@
   "pre-commit": "lint:staged",
   "babel": {
     "plugins": [
+      "universal-import",
       "styled-components"
     ],
     "presets": [
@@ -235,6 +236,7 @@
     "react-redux": "5.0.5",
     "react-router-dom": "4.1.1",
     "react-router-redux": "5.0.0-alpha.6",
+    "react-universal-component": "2.5.0",
     "redux": "3.6.0",
     "redux-immutable": "4.0.0",
     "redux-saga": "0.15.3",
@@ -257,6 +259,7 @@
     "babel-plugin-transform-react-constant-elements": "6.23.0",
     "babel-plugin-transform-react-inline-elements": "6.22.0",
     "babel-plugin-transform-react-remove-prop-types": "0.4.5",
+    "babel-plugin-universal-import": "1.2.6",
     "babel-preset-env": "1.5.1",
     "babel-preset-react": "6.24.1",
     "babel-preset-stage-0": "6.24.1",
@@ -293,7 +296,7 @@
     "shelljs": "0.7.7",
     "style-loader": "0.18.1",
     "url-loader": "0.5.8",
-    "webpack": "2.6.1",
+    "webpack": "3.5.5",
     "webpack-dev-middleware": "1.10.2",
     "webpack-hot-middleware": "2.18.0"
   }
