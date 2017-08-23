@@ -50,6 +50,7 @@
   "pre-commit": "lint:staged",
   "babel": {
     "plugins": [
+      "universal-import",
       "styled-components"
     ],
     "presets": [
