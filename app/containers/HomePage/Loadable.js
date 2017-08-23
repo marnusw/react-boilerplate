@@ -1,11 +1,10 @@
 /**
  * Asynchronously loads the component for HomePage
  */
-import Loadable from 'react-loadable';
+import universal from 'react-universal-component';
 
 import LoadingIndicator from 'components/LoadingIndicator';
 
-export default Loadable({
-  loader: () => import('../HomePage'),
+export default universal(() => import('../HomePage'), {
   loading: LoadingIndicator,
 });
