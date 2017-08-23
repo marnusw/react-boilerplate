@@ -27,6 +27,10 @@ const AppWrapper = styled.div`
 `;
 
 export default function App() {
+  console.log(AppWrapper);
+  console.log(<AppWrapper>Content</AppWrapper>);
+  console.log(HomePage);
+  console.log(<HomePage />);
   return (
     <AppWrapper>
       <Helmet
